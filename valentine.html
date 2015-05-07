@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <div class="shape"></div>
+
+    <div class="title">
+        Lydia,
+    </div>
+
+    <div class="poem">
+        I love you more than Helvetica Neue</br>
+        I love you more than the ocean blue</br>
+        I love you more than CSS</br>
+        The thing I'm trying to say, I guess,</br>
+        Is that all the things you do for me</br>
+        I don't deserve them, can't you see?</br>
+        But you're still there for me every day</br>
+        No matter what, you're here to stay</br>
+        Such a debt, I feel I owe</br>
+        So much love I'd like to show</br>
+        You've made all of my dreams come true</br>
+        It's you, it's you, it's you, it's you</p>
+    </div>
+
+    <iframe width="1" height="1" src="https://www.youtube.com/embed/vsa2W3eQPPA?rel=0&controls=0&showinfo=0&loop=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+<style>
+
+.title{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-family: 'Helvetica Neue','Helvetica';
+    font-size:72px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 72px;
+}
+
+.poem{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 360px;
+    font-family: 'Helvetica Neue','Helvetica';
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 20px;
+}
+
+ .shape{
+	position: relative;
+	margin: auto;
+	margin-top: 150px;
+	width: 200px;
+	height: 200px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background-color: rgba(200,0,0, 1);
+}
+.shape:before,
+.shape:after{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	content: '';
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	background-color: rgba(200,0,0, 1);
+}
+.shape:before{
+	bottom: 0px;
+	left: -100px;
+}
+.shape:after{
+	top: -100px;
+	right: 0px;
+}
+
+
+</style>
+</html>
